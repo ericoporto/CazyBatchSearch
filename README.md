@@ -1,4 +1,4 @@
-# CazyBatchSearch
+# Cazy Batch Search
 A way to batch search the Carbohydrate-Active enZYmes Database GenBank accession, using Python.
 
 So, you will need a file named `enzylist.csv`, in the same folder, for this to work.
