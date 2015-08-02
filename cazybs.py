@@ -28,10 +28,10 @@ def findEnzymeInCazy(enzyname):
             k = linkLine.find( '.html"', j )
             return linkLine[j:k] # beteween first and second double quotes
     return None
-    
+
 f = open('enzytable.csv','w')
-print("enzyme     ; rank", file=f)
-print("enzyme     ; rank")
+print("EnzymeCode     ; GHFamily", file=f)
+print("EnzymeCode     ; GHFamily")
 for line in open("enzylist.csv","r"):
     pieces = line.split(";")
     enzyname = pieces[0].strip()
